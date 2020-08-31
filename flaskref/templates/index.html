@@ -1,4 +1,8 @@
-<html>
+{% extends "layout.html" %}
+{% block content %}
+<span class="message">{{ message }}</span>{{ content }}
+{% endblock %}
+<!--<html>
     <head>
         <title>{{ title }}</title>
         <link rel="stylesheet" type="text/css" href="/static/site.css" />
@@ -7,4 +11,4 @@
         <span class="message">{{ message }}</span>{{ content }}
         <div><a href="about">About</a></div>
     </body>
-</html>
+</html>-->
